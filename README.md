@@ -24,10 +24,10 @@ python manage.py runserver
 ```
 
 ## API명세
-|URL|METHOD|Description|Return|
-|---|---|---|---|
-|/api/posts|`GET`|전체 글을 조회합니다.|[...{Post}]|
-|/api/posts|`POST`|새로운 글을 작성합니다.|{Post}|
-|/api/posts/[id]|`GET`|특정 id의 글을 조회합니다.|{Post}|
-|/api/posts/[id]|`DELETE`|특정 id의 글을 삭제합니다.||
+|URL|METHOD|Description|Params|Return|
+|---|---|---|---|---|
+|/api/posts|`GET`|전체 글을 조회합니다.||[...{Post}]|
+|/api/posts|`POST`|새로운 글을 작성합니다.|{title:'',content:''}|{Post}|
+|/api/posts/[id]|`GET`|특정 id의 글을 조회합니다.||{Post}|
+|/api/posts/[id]|`DELETE`|특정 id의 글을 삭제합니다.|||
 
