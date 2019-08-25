@@ -3,7 +3,7 @@
 ## Git Clone & Move Dir
  먼저 프로젝트를 clone하고 해당 프로젝트 폴더로 이동합니다.
 ```
-git clone https://github.com/csy1204/django-backend
+git clone https://github.com/csy1204/djangobackend.git
 cd django-backend
 ```
 
